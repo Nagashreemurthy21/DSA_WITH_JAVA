@@ -15,12 +15,12 @@ echo \`\`\`
 echo.
 echo ---
 echo ## 🚀 Programs Included
-echo - 🧮 **Calculator.java** – Basic arithmetic operations
-echo - 🔤 **CaseCheckInAlphabets.java** – Checks if a character is uppercase or lowercase
-echo - 🔢 **CountingOccurrenceOfNumber.java** – Counts occurrences of a digit in a number
-echo - 🔁 **ReverseANumber.java** – Reverses a given number
-echo - 🧬 **FibonacciSequence.java** – Generates Fibonacci series
-echo - 🔍 **CheckPrimeNumber.java** – Checks if a number is prime
+echo All my DSA and Java practice programs are stored inside the **src/** folder, including:
+echo - Basic Java programs
+echo - Loops and conditions
+echo - Arrays and strings
+echo - Number operations
+echo - Recursion and logic-based programs
 echo.
 echo ---
 echo ## 🧰 Technologies Used
