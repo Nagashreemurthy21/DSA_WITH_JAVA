@@ -34,7 +34,7 @@ echo.
 echo ---
 echo ## 🌟 Author
 echo **Nagashree Murthy**
-echo 📍 3rd Year CSE Student ^| Web Developer ^| DSA Learner
+echo 📍CSE Student ^| Web Developer ^| DSA Learner
 echo 🔗 [GitHub Profile](https://github.com/Nagashreemurthy21)
 echo.
 echo ⭐ *If you like this repo, consider giving it a star!*
