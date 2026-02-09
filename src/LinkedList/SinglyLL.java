@@ -135,4 +135,42 @@ public static class LL
 			}
 			return count;
 		}
+		public Node insertAtSpecificPos(int val, int index)
+		{
+			Node node=new Node(val);
+			if(index==0)
+			{
+				return insertFirst(val);
+			}
+			if(index==size)
+			{
+				return insertLast1(val);
+			}
+			Node temp=head;
+			for(int i=1;i<index;i++)
+			{
+				temp=temp.next;
+			}
+			node.next = temp.next;
+			temp.next=node;
+			temp=node;
+			size++;
+			return node;
+		}
+		public int deleteAtSpecificPos(int index)
+		{
+			if(index==0)
+			{
+				return deleteFirst();
+			}
+			if(index==size)
+			{
+				return deleteLast();
+			}
+			Node prev=getNode(index-1);
+			int val=prev.next.val;
+			prev.next=prev.next.next;
+			size--;
+			return val;
+		}
 	}
