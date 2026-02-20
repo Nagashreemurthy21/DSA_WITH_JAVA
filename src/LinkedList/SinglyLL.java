@@ -173,4 +173,3 @@ public static class LL
 			size--;
 			return val;
 		}
-	}
